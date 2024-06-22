@@ -1,0 +1,8 @@
+flutter_native_splash:
+
+  color: "#FFFFFF"
+  image: assets/images/election_app_logo.jpg
+
+  android_12:
+   color: "#FFFFFF"
+   image: assets/images/election_app_logo_android_12.png
