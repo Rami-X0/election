@@ -29,7 +29,6 @@ class BlocListenerCandiDateLogin extends StatelessWidget {
           },
           loginSuccess: (data) {
             // context.pushNamedAndRemoveUntil(Routes.coachLogin);
-            context.pop();
           },
           loginFailure: (failure) {
             context.pop();

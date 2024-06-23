@@ -16,7 +16,7 @@ class ElectionsApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         theme: ThemeData(scaffoldBackgroundColor: Colors.white),
         onGenerateRoute: route.generateRoute,
-        initialRoute:Routes.voterLoginScreen
+        initialRoute:Routes.chooseUser
       ),
     );
   }

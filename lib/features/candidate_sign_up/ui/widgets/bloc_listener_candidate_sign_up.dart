@@ -31,7 +31,6 @@ class BlocListenerCandiDateSignUp extends StatelessWidget {
           },
           signUpSuccess: () {
             context.pushNamedAndRemoveUntil(Routes.candidateLoginScreen);
-            context.pop();
           },
           signUpFailure: (failure) {
             context.pop();
